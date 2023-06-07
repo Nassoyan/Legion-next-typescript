@@ -1,0 +1,163 @@
+.videocontent_wrapper {
+  width: 100%;
+  height: 2254px;
+  margin-top: 189px;
+  padding: 135px;
+  box-shadow: 0px 0px 74px rgba(34, 245, 195, 0.55);
+  background: linear-gradient(99.48deg, rgba(0, 0, 0, 0.7) 37.19%, rgba(0, 0, 29, 0.7) 85.08%),
+    url("../public/images/content/video-background.png") center center no-repeat;
+  background-size: cover;
+
+  .video-content-text {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+    align-items: center;
+    :nth-child(1) {
+      font-family: SquadeOne;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 95px;
+      line-height: 158px;
+      white-space: nowrap;
+      background: linear-gradient(92.97deg, #ffffff 2.9%, rgba(255, 255, 255, 0) 109.66%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    :nth-child(2) {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+      max-width: 646px;
+    }
+  }
+
+  .videocontent_container {
+    .video-content-offer {
+      border: 3px solid #22F5C3;
+      display: flex;
+      flex-direction: column;
+      gap: 57px;
+      padding: 57px 157px 57px 57px;
+      margin-top: 200px;
+      border-top-right-radius: 85px;
+      >p {
+        color: white;
+        font-family: SquadeOne;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 49px;
+        line-height: 74px;
+      }
+      .video-content-offer-mintNow {
+        display: flex;
+        gap: 46px;
+        :nth-child(1) {
+          display: flex;
+          align-items: center;
+          padding: 10px;
+          color: white;
+          border: 3px solid #22F5C3;
+          box-shadow: 0px 0px 74px rgba(34, 245, 195, 0.55);
+          backdrop-filter: blur(57px);
+          /* Note: backdrop-filter has minimal browser support */
+          cursor: pointer;
+          border-radius: 5px;
+          border-top-left-radius: 25px;
+        }
+        :nth-child(2) {
+          display: flex;
+          align-items: center;
+          background: #FFFFFF;
+          border-radius: 10px;
+          font-family: Outfit;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 31px;
+          padding: 15px;
+        }
+      }
+    }
+    .videocontent-icons {
+      display: flex;
+      justify-content: space-between;
+      gap: 228px;
+      >div {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        max-width: 137px;
+        .video-icon-div {
+          width: 65px;
+          height: 65px;
+          background: rgba(255, 255, 255, 0.15);
+          border-top-right-radius: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        >span {
+          color: #FFFFFF;
+          font-family: Outfit;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 31px;
+          white-space: nowrap
+        }
+      }
+    }
+    margin: 0 auto;
+    max-width: 1190px;
+    .video-player {
+      position: relative;
+      border-radius: 50px;
+      overflow: hidden;
+      border: 1px solid rgba(88, 71, 71, 0.5);
+      cursor: pointer;
+
+      .video-player__video {
+        width: 100%;
+      }
+
+      .video-player__controls {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90px;
+        height: 90px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 4px solid #22f5c3;
+        backdrop-filter: blur(22px);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        color: white;
+
+        .video-player__play-button {
+          font-family: Poppins;
+          background: none;
+          border: none;
+          padding: 0;
+          cursor: pointer;
+          outline: inherit;
+          color: rgb(229, 243, 255);
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.playHide {
+  opacity: 0;
+  transition: 0.5s;
+  transform: scale(0);
+}
