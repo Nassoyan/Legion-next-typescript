@@ -1,0 +1,158 @@
+.benefits_container {
+    width: 100%;
+    background-image: url("../public/images/Benefits/Background7.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1065px;
+    color: white;
+    margin: 0 auto;
+
+    .benefits_icons {
+        max-width: 945px;
+        margin: 160px auto 0 auto;
+        .benefits-icons-box {
+            flex-wrap: wrap;
+            display: flex;
+            width: 100%;
+            grid-row-gap: 80px;
+            .benefits-icons-box-inner {
+                display: flex;
+                width: 30%;
+                gap: 21px;
+                > div {
+                    width: 53px;
+                    height: 53px;
+                    background-color: #22f5c3;
+                    border-radius: 5px;
+                    transform: rotate(-90deg);
+                    box-shadow: 0px 0px 24px rgba(34, 245, 195, 0.35);
+                    backdrop-filter: blur(2px);
+                }
+            }
+        }
+    }
+
+    .leg_benefits-text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+        > div {
+            width: 20%;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            height: 122px;
+            border-left: none;
+        }
+        > p {
+            background: linear-gradient(91.89deg, #ffffff 0.45%, rgba(255, 255, 255, 0) 104.83%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            white-space: nowrap;
+            font-family: SquadeOne;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 161px;
+            line-height: 188px;
+        }
+    }
+    .leg-universe-text {
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 137px;
+        align-items: center;
+        padding-top: 200px;
+        gap: 40px;
+        > div {
+            width: 20%;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            height: 122px;
+            border-right: none;
+            min-width: 7%;
+        }
+        > p {
+            display: flex;
+            background: linear-gradient(91.89deg, #ffffff 0.45%, rgba(255, 255, 255, 0) 104.83%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            white-space: nowrap;
+            font-family: SquadeOne;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 161px;
+            line-height: 188px;
+        }
+    }
+}
+
+.benefit-box-left {
+    max-width: 930px;
+    margin: 100px auto auto auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    height: 372px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    color: white;
+    .benefit-box-left-image {
+        padding: 33px 0;
+    }
+    .benefit-box-left-inner {
+        width: 40%;
+        :nth-child(1) {
+            font-family: SquadeOne;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 71px;
+        }
+        :nth-child(2) {
+            font-family: Outfit;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+.benefit-box-right {
+    max-width: 930px;
+    margin: 30px auto auto auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    height: 372px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    color: white;
+    .benefit-box-left-image {
+        padding: 33px 0;
+    }
+    .benefit-box-left-inner {
+        width: 40%;
+        :nth-child(1) {
+            font-family: SquadeOne;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 71px;
+        }
+        :nth-child(2) {
+            font-family: Outfit;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+.benefit-third-box {
+    margin: 30px auto auto auto !important;
+}

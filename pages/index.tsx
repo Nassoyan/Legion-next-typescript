@@ -1,5 +1,10 @@
+import Accordion from '@/components/homepage/Accordion'
+import BenefitBox from '@/components/homepage/BenefitBox'
+import Benefits from '@/components/homepage/Benefits'
 import Navigation from '@/components/homepage/Navigation'
+import NFT from '@/components/homepage/NFT'
 import TopSlider from '@/components/homepage/TopSlider'
+import TradingCarts from '@/components/homepage/TradingCarts'
 import VideoPlayer from '@/components/homepage/VideoContent'
 import Head from 'next/head'
 
@@ -15,6 +20,11 @@ export default function Home() {
       <Navigation/>
       <TopSlider/>
       <VideoPlayer src="/video/robot.mp4" />
+      <TradingCarts/>
+      <Benefits/>
+      <BenefitBox/>
+      <NFT/>
+      <Accordion/>
     </>
   )
 }

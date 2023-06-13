@@ -44,6 +44,7 @@ function Navigation() {
             width={368}
             height={552}
             loading="lazy"
+            layout="responsive" 
           />
         </div>
       </div>

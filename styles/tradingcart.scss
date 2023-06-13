@@ -1,0 +1,61 @@
+ .tradingcart_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 60px;
+    margin-top: 170px;
+    >div {
+      width: 13%;
+      padding: 9px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 9px;
+      border-top-right-radius: 30px;
+    }
+  }
+  .tradingcart_container {
+    margin: 0 auto;
+    max-width: 1190px ;
+    padding: 0 10px;
+    background: url("../public/images/video/background.png");
+    margin-top: 206px;
+    height: 443px;
+    position: relative;
+    .tradingcarts_text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 0 113px;
+      color: white;
+      z-index: 99;
+      position: inherit;
+      padding-top: 102px;
+      gap: 20px;
+      >p {
+          font-family: Outfit;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 44px;
+          text-align: center;
+      }
+      :nth-child(1) {
+          font-family: SquadeOne !important;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 75px;
+          line-height: 81px;
+          text-align: center;
+      }
+    }
+    .trading_heroes {
+      top: -170px;
+      width: 100%;
+      position: absolute;
+    }
+  
+  }
+
